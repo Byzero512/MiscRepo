@@ -61,7 +61,7 @@ FROM ubuntu:{version}
 RUN dpkg --add-architecture i386 && \
     apt-get clean && \
     apt-get update && \
-    apt-get install less && \
+    apt-get install -y less && \
     apt-get install -y sudo && \
     apt-get install -y vim && \
     apt-get install -y libc6:i386 libc6-dbg:i386 libc6-dbg  libpthread-stubs0-dev gcc-multilib && \
@@ -102,7 +102,7 @@ FROM ubuntu:{version}
 RUN dpkg --add-architecture i386 && \
     apt-get clean && \
     apt-get update && \
-    apt-get install less && \
+    apt-get install -y less && \
     apt-get install -y sudo && \
     apt-get install -y vim && \
     apt-get install -y libc6:i386 libc6-dbg:i386 libc6-dbg  libpthread-stubs0-dev gcc-multilib && \
