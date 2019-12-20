@@ -1,0 +1,7 @@
+FROM ubuntu:16.04
+# sudo docker run -it -v PATH2HOST-KERNELSRC:/bybuild code
+RUN sed -i -re 's/us.security.ubuntu.com|us.archive.ubuntu.com|archive.ubuntu.com|security.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/g' /etc/apt/sources.list && \
+    apt-get update && \
+    apt-get install -y sudo gcc && \
+    libssl-dev libncurses5-dev build-essential kernel-package
+VOLUME [ "/bybuild" ]
