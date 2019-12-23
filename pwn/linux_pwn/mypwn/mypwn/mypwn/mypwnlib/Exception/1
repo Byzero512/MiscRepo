@@ -1,0 +1,17 @@
+# elf arch Error
+class elfArchError(Exception):
+    pass
+class streamLenError(Exception):
+    pass
+class shellcodeLenError(Exception):
+    pass
+
+
+# global var context.arch Error
+class contextArchError(Exception):
+    pass
+
+
+# function argument arror
+class argError(Exception):
+    pass
