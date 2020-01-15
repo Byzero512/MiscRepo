@@ -1,0 +1,9 @@
+{
+    "java":"c:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath\\java.exe",
+    "apktool":"F:\\ctfTools\\android\\apktool.jar",
+    "apksigner":"F:\\ctfTools\\android\\apksigner.jar",
+    "jadx":"F:\\ctfTools\\debugTools\\jadx-1.1.0\\bin\\jadx.bat",
+    "key":"E:\\ShareDir\\share\\bykey.jks",
+    "adb":"F:\\android_studio\\SDK\\platform-tools\\adb.exe",
+    "aapt":"F:\\android_studio\\SDK\\build-tools\\28.0.3\\aapt"
+}
