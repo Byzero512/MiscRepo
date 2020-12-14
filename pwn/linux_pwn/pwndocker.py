@@ -157,7 +157,7 @@ def gen_dockerfile():
             # ------------ ustc
             command="RUN sed -i -re 's/archive.ubuntu.com|security.ubuntu.com/debian.ustc.edu.cn/g' /etc/apt/sources.list"
             # ------------ ustc debian
-            command="RUN sed -i -re 's/archive.ubuntu.com|security.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list"   
+            command="RUN sed -i -re 's/us.archive.ubuntu.com|archive.ubuntu.com|security.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list"   
             # ------------ tsinghua
             command="RUN sed -i -re 's/archive.ubuntu.com|security.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/g' /etc/apt/sources.list"
             # ------------ bjtu
